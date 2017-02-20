@@ -1,0 +1,9 @@
+{
+    "name": "json-extractor",
+    "version": "0.0.1",
+    "factorio_version": "0.14",
+    "title": "JSON Extractor",
+    "author": "Xavier Shay",
+    "description": "Dumps active recipes as JSON to Factorio log",
+    "dependencies": ["base >= 0.14.0"]
+}
