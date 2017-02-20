@@ -7,4 +7,4 @@ Includes a vendored copy of a JSON library I didn't write.
 
 ## Usage
 
-    /c remote.call("json-recipes", "dump")
+    /c remote.call("json-dumper", "recipes")

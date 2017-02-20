@@ -1,7 +1,7 @@
 local json = require "json"
 
 interface = {}
-interface.dump = function()
+interface.recipes = function()
 	-- To ensure they are all there...
 	game.player.force.research_all_technologies()
 
@@ -30,4 +30,4 @@ interface.dump = function()
 	log(json:encode(ret))
 	game.player.print("All recipes dumped to log file as JSON")
 end
-remote.add_interface("json-recipes", interface)
+remote.add_interface("json-dumper", interface)
